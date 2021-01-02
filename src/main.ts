@@ -5,5 +5,6 @@ import store from './store'
 import "normalize.css"
 import ElementPlus from 'element-plus';
 import 'element-plus/lib/theme-chalk/index.css';
+import './router/permissions'
 
 createApp(App).use(store).use(router).use(ElementPlus).mount('#app')
